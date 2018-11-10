@@ -1,0 +1,129 @@
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+html, body{
+	font-family: "PT Serif", sans-serif;}
+html h1, h2, h3, h4, h5{
+	color: #FF4200;}
+
+nav #menu{text-align:center;}
+nav{
+	height:3em;
+	color:white;
+}
+nav h2{margin-left:-0.5em;}
+
+nav h2:hover{color:#d3d3d3;}
+
+.top {text-align: center;
+}
+.top h1{font-size:2.8em; line-height: 0.9em;}
+.top h3{font-size: 1em; margin-bottom: 3em;}
+.top h2{font-size:3em; margin-bottom: -1.7em;}
+#pic1{z-index:-2; position:relative; margin-bottom:1.6em;}
+
+.left-geo img{
+	width:1.3em; height:auto;
+}
+.left-geo p{margin-left:2.3em; margin-bottom:0.3em; font-size:0.8em;}
+.left-geo strong{margin-bottom:0em; font-size:0.8em;}
+
+
+.mid-section img{margin:1.6em 0em;}
+
+#imgdown{
+	position:relative;
+	top:10em;
+}
+#imgup{
+	position:relative;
+	bottom:10em;
+}
+.row2{
+	position:relative;
+	top:20em;
+}
+.pictures{
+	margin-bottom:20em;
+}
+.bookbutton {
+  color: #FFF;
+  background-color: #FF4200;
+  border-radius: 1em;
+  margin: 2em 2em; 
+  height:2.8em;
+  width:20em;
+  text-align:center;
+  
+}
+.bookbutton p{margin:auto auto;}
+.butt{
+	text-align:center;
+}
+
+.suggestions img{
+	width:100%;
+}
+.jumbotron{margin-bottom:0; border-radius:0; padding-top:4em; padding-bottom:2em; padding-left:1em; padding-right:1em;}
+.suggestion {margin-bottom:0; padding-bottom:0; border-bottom:0;}
+.suggestions h2{ margin-bottom:1em; margin-top:-1em; text-align:center; font-color:#FF4200}
+.suggestions figcaption{color:#FF4200}
+#munk{
+	position:relative;
+	top:7em;
+	margin-bottom:7em;
+}
+#finn{
+	position:relative;
+	top:7em;
+}
+footer{
+	background-color:#c0cad1;
+	margin-top:0;
+	width:100%;
+}
+footer img{
+	width:100%;
+	height:auto; 
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.foot p{
+	display:inline;
+	font-size:0.7em;
+	margin:1em 1em;
+}
+.foot{margin:1em 0em;}
+
+.links{text-align:right;}
+.foot a{color:#000000;}
+
+/*-- Media Queries --*/
+@media(max-width:768px){
+	.foot p{
+	display:block;
+	font-size:0.7em;
+}}
+
+@media(max-width:1000px){
+
+.suggestions img{
+	width:130%;
+	margin-right:0;
+	margin-left:0;
+	margin-bottom:0;
+}
+#munk{
+	position:static;
+	top:7em;
+	margin-bottom:0em;}
+.suggestions h2{ margin-bottom:1em; margin-top:-1em; text-align:center; font-color:#FF4200 }
+
+#finn{
+	position:static;
+}
+}
